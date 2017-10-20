@@ -1,0 +1,13 @@
+.main-slider-container {
+	margin-top: -20px;
+}
+
+.main-slider-item {
+	width: 100%;
+	/*height: 92vh;*/
+	margin-bottom: 150px;
+}
+
+.main-slider-caption {
+	margin-bottom: -150px;
+}
