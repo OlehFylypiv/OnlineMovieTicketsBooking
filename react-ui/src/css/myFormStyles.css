@@ -1,0 +1,23 @@
+.form-inputs-db {
+    margin-top: 10px;
+}
+
+.myForm {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.join-button {
+    width: 20%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+.join-panel {
+    background: grey;
+    margin-bottom: 5%;
+}

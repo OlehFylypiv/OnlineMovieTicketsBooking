@@ -1,0 +1,19 @@
+.tabs-images {
+    display: flex;
+}
+
+.tabs-images > div {
+    margin-left: 10px;
+}
+
+.tabs-links > a {
+    font-size: 18px;
+}
+
+h3 {
+    color: white;
+}
+
+.movie-desc {
+    color: white;
+}

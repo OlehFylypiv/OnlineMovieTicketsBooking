@@ -1,0 +1,44 @@
+.shedule-table {
+    margin-top: 40px;
+}
+
+.main-table {
+    color: white;
+}
+
+.movie-time-buutons > tr > td > button {
+    margin-top: 17px;
+}
+
+.price > span {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background: linear-gradient(to top, #761818, #761818, #761818, #761818, #761818, #B54041, #F3686A);
+}
+
+.price > b {
+    margin-left: 15px;
+}
+
+.shedule-header {
+    color: white;
+}
+
+.free {
+    color: green;
+}
+
+.inputs-seats-free {
+    margin-top: 15px;
+}
+
+.credentials {
+    color: black;
+}
+
+.booked {
+    color: green;
+}

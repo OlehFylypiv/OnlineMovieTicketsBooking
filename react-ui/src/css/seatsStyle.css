@@ -1,0 +1,61 @@
+.screen-cinema {
+    height: 20px;
+    width: 320px;
+    background-color: grey;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.theatre {
+	display: flex;
+	/* position: absolute; */
+	/* top: 70%; */
+	/* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    margin-left: 21%;
+    margin-top: 10%;
+}
+
+.cinema-seats {
+	display: flex;
+}
+
+.cinema-seats .seat {
+	cursor: pointer;
+}
+
+.cinema-seats .seat:hover:before {
+	content: '';
+	/* position: absolute; */
+	/* top: 0; */
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 7px;
+}
+
+.cinema-seats .seat.active:before {
+	content: '';
+	/* position: absolute; */
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.6);
+	border-radius: 7px;
+}
+
+.left .cinema-row {
+	/* transform: skew(-15deg); */
+	margin: 0 6px;
+}
+
+.left .seat {
+	width: 35px;
+	height: 50px;
+	border-radius: 7px;
+	background: linear-gradient(to top, #761818, #761818, #761818, #761818, #761818, #B54041, #F3686A);
+	margin-bottom: 10px;
+	/* transform: skew(20deg); */
+	margin-top: -32px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
